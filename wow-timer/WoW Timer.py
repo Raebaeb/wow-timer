@@ -1,10 +1,4 @@
 import os, time
-from Tkinter import *
-
-root = Tk()
-root.title("WoW Timer")
-root.geometry("250x150")
-root.mainloop()
 
 def wow_launch():
     os.startfile('E:\\Program Files\World of Warcraft\Wow-64.exe')
